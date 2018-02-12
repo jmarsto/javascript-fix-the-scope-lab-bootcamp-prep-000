@@ -17,9 +17,9 @@ function add2(n) {
   return parseInt(n + two)
 }
 
-function funkyFunction() {
-    return function say() {
-      return "FUNKY!"
+var funkyFunction = function() {
+  return function() {
+    return "FUNKY!"
     }
 }
 
